@@ -2,4 +2,8 @@ function Loaded(str)
     print("[✅️] "..str.." Loaded.")
 end
 
+function Failed(str)
+    print("[❌] "..str.." Failed to Load.")
+end
+
 _G.FunctionLoaded = true
