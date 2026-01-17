@@ -1,0 +1,5 @@
+function Loaded(str)
+    print("[✅️] "..str.." Loaded.")
+end
+
+_G.FunctionLoaded = true
