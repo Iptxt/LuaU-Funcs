@@ -8,5 +8,5 @@ function Library:Failed(str)
     print("[❌] "..str.." Failed to Load.")
 end
 
-return Library
 _G.FunctionLoaded = true
+return Library
