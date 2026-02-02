@@ -1,8 +1,10 @@
-function Loaded(str)
+local Library = {}
+
+function Library:Loaded(str)
     print("[✅️] "..str.." Loaded.")
 end
 
-function Failed(str)
+function Library:Failed(str)
     print("[❌] "..str.." Failed to Load.")
 end
 
