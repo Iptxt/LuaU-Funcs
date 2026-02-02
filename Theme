@@ -50,3 +50,9 @@ WindUI:AddTheme({
     }),
     Icon = Color3.fromHex("#e60b0b"),
 })
+
+
+
+-- ============== End of theme
+
+_G.ThemeLoaded = true
