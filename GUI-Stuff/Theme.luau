@@ -74,6 +74,7 @@ WindUI:AddTheme({
         Rotation = 45,
     }),
     Icon = Color3.fromHex("#fafafa"),
+    WindowShadow = Color3.fromHex("000000"),
 })
 
 -- ============== End of theme
