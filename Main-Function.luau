@@ -1,3 +1,4 @@
+local DebugLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/LuaU-Funcs/refs/heads/main/SendError"))()
 local Library = {}
 
 function Library:Loaded(str)
