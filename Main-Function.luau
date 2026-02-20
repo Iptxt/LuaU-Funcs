@@ -1,4 +1,4 @@
-local DebugLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/LuaU-Funcs/refs/heads/main/SendError"))()
+local DebugLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/LuaU-Funcs/refs/heads/main/DebugLibrary.luau"))()
 local Library = {}
 
 if not SendError then
