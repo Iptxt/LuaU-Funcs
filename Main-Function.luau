@@ -1,9 +1,25 @@
 local DebugLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Iptxt/LuaU-Funcs/refs/heads/main/DebugLibrary.luau"))()
 local Library = {}
 
-if not SendError then
-    function SendError(...) return ... end
-    print("[❌] DebugLibrary Failed to Load.")
+---------------
+
+if _G.DebugLoaded then
+    print("[✅️] Debug Library Loaded.")
+else
+    print("[❌] Debug Library failed to Load. We're not able to send a bug report!")
+
+    local function noopp() end
+    local Silent = setmetatable({}, {
+        __index = function()
+            return noopp
+        end
+    })
+
+    if type(Debug) ~= "table" then
+        Debug = Silent
+    else
+        setmetatable(Debug, getmetatable(Silent))
+    end
 end
 
 ---------------
