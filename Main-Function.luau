@@ -30,7 +30,7 @@ end
 
 function Library:Failed(str)
     print("[❌] "..str.." Failed to Load.")
-    SendError(str)
+    Debug:ReportFailedLoad(str)
 end
 
 _G.FunctionLoaded = true
