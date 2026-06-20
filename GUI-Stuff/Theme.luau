@@ -80,3 +80,4 @@ WindUI:AddTheme({
 -- ============== End of theme
 
 _G.ThemeLoaded = true
+_G.DefaultTheme = "Twilight Corner"
